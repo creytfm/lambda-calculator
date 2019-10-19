@@ -14,7 +14,7 @@ const Numbers = () => {
   return (
     <div>
       {numberData.map((number, i) => {
-        return <NumberButton key ={i} number={number.value} />
+        return <NumberButton key ={i} number={number} />
       })}
     </div>
   );

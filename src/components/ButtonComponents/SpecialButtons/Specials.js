@@ -11,7 +11,7 @@ const [specialData] = useState(specials)
   return (
     <div>
       {specialData.map((special, i)=>{
-        return <SpecialButton key={i} special={special.value} />
+        return <SpecialButton key={i} special={special} />
       })}
     </div>
   );

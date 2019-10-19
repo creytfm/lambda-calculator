@@ -1,7 +1,7 @@
 import React from "react";
-import { tsPropertySignature } from "@babel/types";
 
-const Display = () => {
-  return <div className="display">{}</div>;
+
+const Display = (props) => {
+  return <div className="display">{props.Display}</div>;
 };
  export default Display 
